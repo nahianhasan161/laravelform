@@ -46,16 +46,16 @@
                                             <span class="invalid-feedback">{{ $message }}</span>
                                             @enderror
                                     </div>
-                                    {{-- <div class="col-sm-6">
-                                        <input name='email' type="text" class="form-control form-control-user @error('email')is-invalid @enderror" id="exampleLastName"
+                                    <!-- <div class="col-sm-6">
+                                        <input name='email' type="text" class="form-control form-control-user @error('email') is-invalid @enderror" id="exampleLastName"
                                             placeholder="Last Name">
                                             @error('email')
                                             <span class="invalid-feedback">{{ $message }}</span>
                                             @enderror
-                                    </div> --}}
+                                    </div>  -->
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control form-control-user @error('email')is-invalid @enderror" id="exampleInputEmail"
+                                    <input type="email" name="email" class="form-control form-control-user @error('email')is-invalid @enderror" id="exampleInputEmail"
                                         placeholder="Email Address">
                                         @error('email')
                                         <span class="invalid-feedback">{{ $message }}</span>
